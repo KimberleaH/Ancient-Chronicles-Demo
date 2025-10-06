@@ -1,6 +1,6 @@
 # Ancient Chronicles
 
-This is a demo version of the live [https://ancient-chronicles.com](Ancient Chronicles) website
+This is a demo repo of the live [Ancient Chronicles website](https://ancient-chronicles.com)
 
 ### Features & Pages
 
