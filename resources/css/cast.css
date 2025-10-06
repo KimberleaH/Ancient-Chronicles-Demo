@@ -1,0 +1,258 @@
+
+
+
+
+
+main {
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+
+
+h1 {
+    font-size: 16px;
+    font-weight: 300;
+    color: #708090;
+    margin: 36px 0;
+}
+
+
+.deco-heading {
+    display: flex;
+    align-items: center;
+    margin: 80px 3% 80px;
+}
+
+
+.deco-heading h2 {
+    font-family: Akrobat;
+    font-weight: 400;
+    margin: 0 20px;
+    color: white;
+    font-size: 32px;
+}
+
+.deco {
+    flex-grow: 1;
+    height: 0px;
+    border-top: 1px solid #4682b4;
+}
+
+
+.cast {
+    margin-bottom: 60px;
+}
+
+
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0 40px;
+    gap: 10px;
+}
+
+.container {
+    position: relative;
+    height: 300px;
+}
+
+.character {
+    display: block;
+    height: inherit;
+    border-radius: 10px;
+}
+
+.character:focus {
+    border-radius: 10px;
+}
+
+.overlay {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgba(70, 130, 180, .5);
+}
+
+.container:hover .overlay, .overlay:focus {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    opacity: 1;
+}
+
+.overlay:focus {
+    outline: 2px solid #ffa825;
+    border-radius:10px;
+}
+
+
+
+
+
+
+
+
+/* ----------- RESPONSIVE STYLING --------------- */
+/* ---------------------------------------------- */
+
+
+
+ 
+/* ---- Responsive Styles Tablet And Below ---- */
+@media all and (max-width: 980px) {
+    
+
+    .deco-heading h2 {
+        font-size: 30px;
+    }
+
+
+    .cast {
+        margin-bottom: 40px;
+    }
+
+    .flex {
+        padding: 0 30px;
+    }
+
+    .container {
+        height: 280px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+    
+
+
+    .deco-heading h2 {
+        font-size: 26px;
+    }
+
+    .cast {
+        margin-bottom: 20px;
+    }
+
+    .flex {
+        padding: 0 20px;
+    }
+
+    .container {
+        height: 260px;
+    }
+
+}
+ 
+
+
+
+
+
+
+
+/*** Responsive Styles Narrowing Footer ***/
+@media all and (max-width: 650px) {
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 479px) {
+
+    
+    .deco-heading h2 {
+        font-size: 24px;
+    }
+
+
+    .cast {
+        margin-bottom: 0;
+    }
+
+    
+    .container {
+        height: 240px;
+    }
+
+
+}
+
+
+
+
+
+
+
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 380px) {
+
+    .container {
+        height: 220px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

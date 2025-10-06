@@ -1,0 +1,251 @@
+
+#mobile {
+    display: none;
+}
+
+main {
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+
+.back {
+    margin-left: 15%;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.back a {
+    color: #ffa825;
+    text-decoration: none;
+}
+
+.back a:hover {
+    text-decoration: underline;
+}
+
+
+h1 {
+    font-family: Akrobat;
+    font-weight: 400;
+    color: white;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+
+.caption {
+    font-style: italic;
+}
+
+
+
+
+.character {
+    display: flex;
+    align-items: flex-start;
+    background-color: rgba(112,128,144,0.1);
+    border: 1px solid #708090;
+    border-radius: 20px;
+    margin: 60px 10%;
+    padding: 30px;
+    text-align: left;
+    max-height: 900px;
+}
+
+.character p {
+    margin-bottom: 16px;
+}
+
+.info {
+    order: 1;
+}
+
+.portrait {
+    order: 2;
+    max-height: inherit;
+    max-width: 45%;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.wa {
+    color: #ffa825;
+    text-decoration: none;
+}
+
+.wa:hover {
+    color: #ffa825;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+/* ----------- RESPONSIVE STYLING --------------- */
+/* ---------------------------------------------- */
+
+
+
+ 
+/* ---- Responsive Styles Tablet And Below ---- */
+@media all and (max-width: 980px) {
+    
+    main {
+        padding: 100px 0;
+    }
+
+    #desktop {
+        display: none;
+    }
+
+    #mobile {
+        display: flex;
+    }
+
+    .character {
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 60px 8%;
+        padding: 30px;
+        text-align: left;
+        max-height: 900px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .description {
+        order: 3;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+
+    main {
+        padding: 80px 0;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .portrait {
+        order: 1;
+        max-width: 100%;
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+
+    .profile {
+        order: 2;
+    }
+
+    .character {
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 30px 4%;
+        padding: 30px;
+        text-align: left;
+        max-height: none;
+    }
+
+}
+ 
+
+
+
+
+
+
+
+/*** Responsive Styles Narrowing Footer ***/
+@media all and (max-width: 650px) {
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 479px) {
+
+    h1 {
+        font-size: 24px;
+    }
+
+}
+
+
+
+
+
+
+
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 380px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,140 @@
+
+
+.main-bg {
+    height: 100%;
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.25) 50%, 
+        rgba(0,0,0,0.25) 50% ),
+        url('../images/TheWayForwardIsBarred_Wide.jpg');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        background-position: center;
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: -20;
+        pointer-events: none;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.error {
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    padding: 50px 5%;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: Akrobat;
+    font-weight: 800;
+    color: #708090;
+    margin-bottom: 36px;
+}
+
+
+
+.error p {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+/* ----------- RESPONSIVE STYLING --------------- */
+/* ---------------------------------------------- */
+
+
+ 
+
+
+
+/* ---- Responsive Styles Tablet And Below ---- */
+@media all and (max-width: 980px) {
+    
+
+    h1 {
+        font-size: 32px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+    
+    h1 {
+        font-size: 28px;
+    }
+
+
+}
+ 
+
+
+
+
+
+
+
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 479px) {
+
+    h1 {
+        font-size: 26px;
+    }
+
+ 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

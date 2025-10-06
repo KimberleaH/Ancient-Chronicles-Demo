@@ -1,0 +1,220 @@
+
+
+main {
+    padding: 100px 0;
+}
+
+.page-info, h1 {
+    font-size: 16px;
+    color: #708090;
+    font-weight: 400;
+}
+
+.info-flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    gap: 40px;
+}
+
+
+.skip-comic {
+    color: #ffa825;
+    text-decoration: none;
+    position: absolute;
+    right: 3%;
+    z-index: -99;
+}
+
+.skip-comic:focus {
+    position: absolute;
+    z-index: 99;
+}
+
+
+
+.page {
+    background-color: rgba(0,0,0,.5);
+    padding: 30px 10px;
+    margin: 30px 0;
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 90px;
+}
+
+.pagination a {
+    color: #ffa825;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.pagination a:hover {
+    text-decoration: underline;
+}
+
+.comic img {
+    margin: 40px 0;
+    max-width: 900px;
+}
+
+.creator-notes {
+    color: #708090;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.creator-notes h3 {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+
+.transcript p {
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.deco-heading {
+    display: flex;
+    align-items: center;
+    margin: 20px 3% 60px;
+}
+
+.deco-heading h3 {
+    margin: 0 20px;
+    color: white;
+    font-size: 22px;
+}
+
+.deco {
+    flex-grow: 1;
+    height: 0px;
+    border-top: 1px solid #4682b4;
+}
+
+
+
+
+
+/* ----------- RESPONSIVE STYLING --------------- */
+/* ---------------------------------------------- */
+
+
+
+ 
+/* ---- Responsive Styles Tablet And Below ---- */
+@media all and (max-width: 980px) {
+    
+
+    .deco-heading h2 {
+        font-size: 30px;
+    }
+
+    .comic img {
+        margin: 20px 0;
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+    
+
+    .deco-heading h2 {
+        font-size: 26px;
+    }
+
+    .creator-notes {
+        max-width: 90%;
+    }
+
+}
+ 
+
+
+
+
+
+
+
+/*** Responsive Styles Narrowing Footer ***/
+@media all and (max-width: 650px) {
+
+    .deco-heading h2 {
+        font-size: 24px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 479px) {
+
+ 
+}
+
+
+
+
+
+
+
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 380px) {
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
